@@ -1,5 +1,6 @@
 const text_element =  document.getElementById("quote");
 const author_element = document.getElementById("person");
+const placeholder_text = document.getElementById("placeholder_text")
 
 async function getQuote() {
    try {
@@ -24,5 +25,6 @@ async function getQuote() {
 function reset() {
     text_element.innerText = "";
     author_element.innerText = "";
+    placeholder_text.innerText = "";
 
 }
